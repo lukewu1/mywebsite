@@ -9,7 +9,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/mywebsite">
         <Routes>
           <Route index element={<About />} />
           <Route path="/" element={<About />} />
@@ -22,4 +22,3 @@ function App() {
 }
 
 export default App
-
