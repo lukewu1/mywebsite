@@ -8,18 +8,15 @@ import './App.css'
 function App() {
 
   return (
-    // <>
-    //   <BrowserRouter>
-    //     <Routes>
-    //       <Route index element={<About />} />
-    //       <Route path="/" element={<About />} />
-    //       {/* <Route path="/experience" element={<Experience />} />
-    //       <Route path="/projects" element={<Projects />} /> */}
-    //     </Routes>
-    //   </BrowserRouter>
-    // </>
     <>
-    <About />
+      <BrowserRouter basename="/mywebsite">
+        <Routes>
+          <Route index element={<About />} />
+          <Route path="/" element={<About />} />
+          {/* <Route path="/experience" element={<Experience />} />
+          <Route path="/projects" element={<Projects />} /> */}
+        </Routes>
+      </BrowserRouter>
     </>
   )
 }
