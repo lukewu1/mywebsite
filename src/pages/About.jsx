@@ -5,7 +5,7 @@ import profilePicture from '../downloads/IMG_4875.jpg'
 export default function About(){
     return(
         <div>
-            <Header />
+            {/* <Header /> */}
             <div className="body">
                 <div className="text">
                     <h1>Luke Wu</h1>
@@ -20,7 +20,7 @@ export default function About(){
                     <img src={profilePicture} class="profile"/>
                 </div>
             </div>
-            <Footer />
+            {/* <Footer /> */}
         </div>
     )
 }
