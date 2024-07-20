@@ -1,4 +1,8 @@
-*{margin:0; padding:0}
+*{
+  margin:0; 
+  padding:0;
+  background-color: rgb(50, 49, 49);
+}
 
 .footerbar{
   display: flex;
