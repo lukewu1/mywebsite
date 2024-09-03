@@ -78,6 +78,8 @@
 .body{
   display: flex;
   justify-content: space-between;
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
 }
 /* 
 .body2{
@@ -148,4 +150,10 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.experiencetitle{
+  margin-top: 1.5%;
+  margin-bottom: 1.5%;
+  margin-left: 1.5%;
 }
