@@ -13,7 +13,10 @@ export default function Experience(){
             <div className="body">
                 <div className="text">
                     <p>
-                        Contributed to the backend development of a full-stack CRUD application aimed at providing healthy alternatives to drugs, alcohol, and other unhealthy coping mechanisms, primarily for teens. The application was built using Svelte for the frontend and Firebase for the backend, offering a user-friendly platform to support the organization's mission.
+                        Contributed to the backend development of a full-stack CRUD application aimed at 
+                        providing healthy alternatives to drugs, alcohol, and other unhealthy coping mechanisms, 
+                        primarily for teens. The application was built using Svelte for the frontend and Firebase 
+                        for the backend, offering a user-friendly platform to support the organization's mission.
                     </p>
                     <br></br>
                     <p>
