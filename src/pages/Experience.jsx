@@ -1,7 +1,7 @@
 import Header from './Header'
 import Footer from './Footer'
 import LA from '../downloads/download (3).png'
-import NH from '../downloads/Screenshot 2024-09-03 at 5.05.09 PM.png'
+import NH from '../downloads/d59970_826ca32520914c55b5880387f65543da~mv2.png'
 
 export default function Experience(){
     return(
@@ -28,6 +28,9 @@ export default function Experience(){
                 </div>
             </div>
             <div className="body">
+                <div className="profile">
+                    <img src={LA} className="la"/>
+                </div>
                 <div className="text">
                     <p>
                     I have mentored over 200 students in CU's Intro to Computer Science course, 
@@ -36,9 +39,6 @@ export default function Experience(){
                     effectively support our students' learning 
                     and improve my communication, teamwork, and leadership skills.
                     </p>
-                </div>
-                <div className="profile">
-                    <img src={LA} className="la"/>
                 </div>
             </div>
             <Footer />

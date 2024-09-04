@@ -16,7 +16,7 @@ export default function Projects(){
                 <div className="body">
                     <div className="text">
                         <p>
-                        <a href="https://github.com/lukewu1/AI-PDF-Summarizer" target="_blank">AI PDF Summarizer</a> <br />
+                        <a href="https://github.com/lukewu1/AI-PDF-Summarizer" target="_blank">AI PDF Summarizer with Notion Integration</a> <br />
                         Description: Integrated Mr2Wei's AI PDF Summarizer with the Notion API, allowing users to automatically send summaries to their Notion pages. Developed a secure backend that requires users to run the code locally to enable the Notion integration, ensuring both data protection and user control.<br /> <br />
                         Tools used: JavaScript, HTML, CSS, Notion API, Backend Development
                         </p>
