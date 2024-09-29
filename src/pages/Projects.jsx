@@ -8,8 +8,8 @@ import AI from '../downloads/Site.png'
 export default function Projects(){
     return(
         <>
-            <Header />
             <div className="body2">
+                <Header />
                 <div className="title">
                     <h1>Projects</h1> <br />
                 </div>
@@ -61,8 +61,8 @@ export default function Projects(){
                         </p>
                     </div>
                 </div>
-            </div>
             <Footer />
+            </div>
         </>
     );
 }
