@@ -1,48 +1,103 @@
-import Header from './Header'
-import Footer from './Footer'
 import LA from '../downloads/download (3).png'
 import NH from '../downloads/d59970_826ca32520914c55b5880387f65543da~mv2.png'
+import faav from '../downloads/faav.png'
+import rsm from '../downloads/rsm.jpg'
+import thecorner from '../downloads/thecorner.png'
 
 export default function Experience(){
     return(
         <>
-            <div className="body2">
-                <Header />
+            <div className="body2" id="experience">
                 <div className="title">
                     <h1>Experience</h1>
                 </div>
-                <div className="body">
-                    <div className="text">
-                        <p>
-                            Contributed to the backend development of a full-stack CRUD application aimed at 
-                            providing healthy alternatives to drugs, alcohol, and other unhealthy coping mechanisms, 
-                            primarily for teens. The application was built using Svelte for the frontend and Firebase 
-                            for the backend, offering a user-friendly platform to support the organization's mission.
-                        </p>
-                        <br></br>
-                        <p>
-                            Tools & Technologies: Svelte, Firebase, TypeScript.
-                        </p>
-                    </div>
-                    <div className="profile">
-                        <img src={NH} className="la"/>
-                    </div>
-                </div>
+                {/* Faav App */}
                 <div className="body">
                     <div className="profile">
-                        <img src={LA} className="la"/>
+                        <img src={faav} className="exp-logo"/>
                     </div>
                     <div className="text">
                         <p>
-                        I have mentored over 200 students in CU's Intro to Computer Science course, 
-                        facilitating their learning through weekly recitations and providing additional support during office hours. <br /> <br />
-                        From working as a Learning Assistant for CSCI 1300, I closely collaborated with the instructional team to 
-                        effectively support our students' learning 
-                        and improve my communication, teamwork, and leadership skills.
+                            <strong>Software Engineering Co-op – Faav App</strong> <br />
+                            Developed a recommendation engine in Go using the Apriori
+                            algorithm to generate item-to-item associations from user
+                            interaction data. Designed a PostgreSQL data pipeline to
+                            simulate thousands of user interactions and compute support,
+                            confidence, and lift metrics for ranked recommendation rules.
+                            <br /><br />
+                            <strong>Technologies:</strong> Go, PostgreSQL, SQL
                         </p>
                     </div>
                 </div>
-                <Footer />
+
+                {/* RSM */}
+                <div className="body">
+                    <div className="profile">
+                        <img src={rsm} className="exp-logo"/>
+                    </div>
+                    <div className="text">
+                        <p>
+                            <strong>Application Developer Intern – RSM</strong> <br />
+                            Developed and optimized SuiteScript workflows within NetSuite
+                            to automate business processes and improve system efficiency.
+                            Led research and experimentation with NetSuite’s LLM tools,
+                            building Suitelets and a chatbot while exploring prompt
+                            engineering techniques for internal workflows.
+                            <br /><br />
+                            <strong>Technologies:</strong> SuiteScript, NetSuite, JavaScript, LLM Tools
+                        </p>
+                    </div>
+                </div>
+
+                {/* Natural Highs */}
+                <div className="body">
+                    <div className="profile">
+                        <img src={NH} className="exp-logo"/>
+                    </div>
+                    <div className="text">
+                        <p>
+                            <strong>Software Developer – Natural Highs</strong> <br />
+                            Contributed to backend development of a full-stack CRUD
+                            application providing teens with healthy alternatives to
+                            drugs and alcohol. Implemented Firebase database operations
+                            and backend logic for a cloud-hosted platform.
+                            <br /><br />
+                            <strong>Technologies:</strong> Svelte, Firebase, TypeScript
+                        </p>
+                    </div>
+                </div>
+
+                {/* Learning Assistant */}
+                <div className="body">
+                    <div className="profile">
+                        <img src={LA} className="exp-logo"/>
+                    </div>
+                    <div className="text">
+                        <p>
+                            <strong>Learning Assistant – CSCI 1300</strong> <br />
+                            Mentored 200+ students in introductory computer science
+                            through weekly recitations and office hours while working
+                            closely with instructors to support coursework and debugging.
+                        </p>
+                    </div>
+
+                </div>
+
+                {/* Volunteer */}
+                <div className="body">
+                    <div className="profile">
+                        <img src={thecorner} className="exp-logo"/>
+                    </div>
+                    <div className="text">
+                        <p>
+                            <strong>Volunteer Coach – Parkinson’s Boxing Program</strong> <br />
+                            Assist in twice-weekly boxing exercise classes helping elderly
+                            participants with Parkinson’s disease improve mobility,
+                            coordination, and balance through structured drills.
+                        </p>
+                    </div>
+                </div>
+
             </div>
         </>
     );

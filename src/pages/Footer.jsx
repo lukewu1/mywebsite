@@ -4,16 +4,18 @@ import gmailLogo from '../downloads/5006dc7319d99a139727482e4d75b1f2-removebg-pr
 
 export default function Footer(){
     return(
-        <div className="footerbar">
-            <a href="https://github.com/lukewu1" target="_blank">
-                <img src={githubLogo} class="logo"/>
-            </a>
-            <a href="https://www.linkedin.com/in/luke-wu-029115269" target="_blank">
-                <img src={linkedinLogo} class="logo"/>
-            </a>
-            <a href="mailto:luwu8831@colorado.edu" target="_blank">
-                <img src={gmailLogo} class="logo"/>
-            </a>
-        </div>
+        <>
+            <div className="footerbar">
+                <a href="https://github.com/lukewu1" target="_blank">
+                    <img src={githubLogo} className="logo"/>
+                </a>
+                <a href="https://www.linkedin.com/in/luke-wu-029115269" target="_blank">
+                    <img src={linkedinLogo} className="logo"/>
+                </a>
+                <a href="mailto:luwu8831@colorado.edu" target="_blank">
+                    <img src={gmailLogo} className="logo"/>
+                </a>
+            </div>
+        </>
     )
 }
